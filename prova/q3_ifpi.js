@@ -7,7 +7,7 @@ function main() {
       nota2 = Number(input('Segunda nota: '))
       nota3 = Number(input('Nota das atividades: '))
 
-  let media_ponderada = ((nota1*0.2) + (nota2*0.3) + (nota3*0.1)) / 0.6
+  let media_ponderada = ((nota1*2) + (nota2*3) + (nota3*1)) / 6
 
 //Processamento
   if (media_ponderada >= 7) {  
@@ -21,7 +21,7 @@ function main() {
     let nota_prova_final = Number(input('Nota da prova final: '))
         pf_media = (nota_prova_final + media_ponderada) / 2
         if (pf_media >=6){
-            console.log(`com media de ${pf_media.toFixed(1)}voce foi aprovado!`)
+            console.log(`com media de ${pf_media.toFixed(1)} voce foi aprovado!`)
         }else{
              console.log(`com media de ${pf_media.toFixed(1)} voce foi reprovado!`)
         }
