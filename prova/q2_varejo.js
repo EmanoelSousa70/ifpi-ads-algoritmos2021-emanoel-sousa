@@ -1,7 +1,7 @@
 const input = require('prompt-sync')()
 
 function main(){
-    let nome = input('Nome de vendedor: ')
+        let nome = input('Nome de vendedor: ')
         total_vendas = Number(input('Digite o valor total vendas no mês: R$'))
         comissao_faixa_1 = Number(comissao_primeira_faixa(total_vendas))
         comissao_faixa_2 = Number(comissao_segunda_faixa(total_vendas))
@@ -10,7 +10,7 @@ function main(){
 
     console.log('----- PINTOS -----')
     console.log('Funcionário',nome)
-    console.log('Valor total de vendas: R$ ${total_vendas}')
+    console.log('Valor total de vendas: R$ $',total_vendas)
     console.log('Comissão primeira faixa (5%): R$ ',`${comissao_faixa_1.toFixed(2)}`)
     console.log('Comissão segunda faixa (10%): R$', `${comissao_faixa_2.toFixed(2)}`)
     console.log('Comissão terceira faixa (20%): R$',`${comissao_faixa_3.toFixed(2)}`)
