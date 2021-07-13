@@ -11,9 +11,9 @@ function main(){
     console.log('----- PINTOS -----')
     console.log('Funcionário',nome)
     console.log('Valor total de vendas: R$ $',total_vendas)
-    console.log('Comissão primeira faixa (5%): R$ ',`${comissao_faixa_1.toFixed(2)}`)
-    console.log('Comissão segunda faixa (10%): R$', `${comissao_faixa_2.toFixed(2)}`)
-    console.log('Comissão terceira faixa (20%): R$',`${comissao_faixa_3.toFixed(2)}`)
+    console.log('Comissão primeira faixa : R$ ',`${comissao_faixa_1.toFixed(2)}`)
+    console.log('Comissão segunda faixa : R$', `${comissao_faixa_2.toFixed(2)}`)
+    console.log('Comissão terceira faixa : R$',`${comissao_faixa_3.toFixed(2)}`)
     console.log('Valor total da comissão: R$', `${comissoes.toFixed(2)}`)
     console.log('Salário final: R$', `${(1100 + comissoes).toFixed(2)}`)
 }
